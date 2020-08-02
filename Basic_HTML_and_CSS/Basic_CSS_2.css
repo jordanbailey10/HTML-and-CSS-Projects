@@ -1,0 +1,12 @@
+.class_attribute {
+	color: blue;
+	background: yellow;
+	font-style: bold;
+	text-align: right;
+}
+p {
+	color: orange;
+}
+p {
+  text-shadow:5px 5px 10px blue;
+  }
