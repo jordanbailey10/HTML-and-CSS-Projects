@@ -13,7 +13,7 @@
 
 .menu li {
     color:#000;
-    background-color: rgba(225, 225, 225, 1);
+    background-color: rgba(255, 255, 255, 1);
     display: inline-block;
     margin: 0% auto;
     position: relative;
@@ -30,7 +30,7 @@
 }
 
 .menu li:hover {
-    color:f00;
+    color:#f00;
     background-color: rgba(100,65,0,.3);
 }
 
@@ -52,9 +52,14 @@
     text-align: center;
     margin: 15px auto;
     width: 300px;
-    height: 168px;
+    height: 169px;
 }
 
+.photo-container {
+    text-align: center;
+    margin: 15px auto;
+    width: 300px;
+}
 .photo-overlay {
     color: #fff;
     position: absolute;
