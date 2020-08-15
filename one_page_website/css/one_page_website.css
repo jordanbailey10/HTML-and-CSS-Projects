@@ -1,0 +1,18 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.subscribe input[type=text] {
+    width:80%;
+    margin: 10px 1em ;
+    box-sizing: border-box seagreen;
+    border-radius:7px;
+}
+
+
