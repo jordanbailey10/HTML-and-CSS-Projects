@@ -11,7 +11,7 @@ h1, h2, h3 {
 .subscribe input[type=text] {
     width:80%;
     margin: 10px 1em ;
-    box-sizing: border-box seagreen;
+    box-sizing: border-box;
     border-radius:7px;
 }
 
