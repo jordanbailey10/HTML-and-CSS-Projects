@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="Academy_cinemas.css">
+    <link rel="stylesheet" href="css/Academy_cinemas.css">
 
     <title>Academy Cinemas</title>
   </head>
   <body>
-    
+    <!-- Nav Bar-->
       <div class="container">
 
         <nav class="navbar navbar-expand-lg navbar-light bg-info">
@@ -35,14 +35,14 @@
             </form>
           </div>
         </nav>
-
+       <!-- Academy Cinemas main header-->
         <div class="jumbotron jumbotron-fluid bg-info text-center">
           <div class="container">
             <h1 class="display-4 text-light">Academy Cinemas</h1>
             <p class="lead text-light">Sit back, relax, and enjoy the show...</p>
           </div>
         </div>
-
+<!--Image container-->
         <div class="container">
           <div class="row">
             <div class="col-sm">
@@ -50,6 +50,7 @@
                 <img class="img-fluid" src="./img/pdx.jpg" alt="Portland"/>
 
             </div>
+            <!--About section-->
             <div id="about"></div>
             <div class="col-sm">
 
@@ -62,6 +63,7 @@
             
             
             </div>
+            <!--Movies Playing-->
             <div class="col-sm">
 
                 <h3>Now Playing:</h3>
@@ -83,6 +85,7 @@
         <!--showtimes-->
         <div id="showtimes">
           <div class="card-deck">
+            <!--card for kong skull-->
             <div class="card">
               <img src="./img/kongskullisland.jpg" class="card-img-top" alt="kong skull island">
               <div class="card-body">
@@ -96,11 +99,13 @@
                 <span class="badge badge-pill badge-info">9:00 p.m</span>
               </div>
             </div>
+            <!--card for ghost in the shell-->
             <div class="card">
               <img src="./img/ghostintheshell.jpg" class="card-img-top" alt="ghost in the shell">
               <div class="card-body">
                 <h4 class="card-title">Ghost in the Shell</h4>
                 <p>In the near future, major Mila Killian is the first of her kind: a human saved from a terrible crash, who is cyber-enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals.</p><br>
+                <!--badge pills for showtimes-->
                 <span class="badge badge-pill badge-info">12:00 p.m</span>
                 <span class="badge badge-pill badge-info">1:30 p.m</span>
                 <span class="badge badge-pill badge-info">3:00 p.m</span>
@@ -109,6 +114,7 @@
                 <span class="badge badge-pill badge-info">9:00 p.m</span>
               </div>
             </div>
+            <!--card for beaty and the beast-->
             <div class="card">
               <img src="./img/beautyandthebeast.jpg" class="card-img-top" alt="beauty and the beast">
               <div class="card-body">
@@ -138,6 +144,7 @@
                   <h5 class="modal-title" id="registerLabel">Enter your contact info to get your movie deals!</h5>
              </div>
              <div class="modal-body">
+              <!--movie deals form-->
               <form>
                 <div class="form-group">
                   <fieldset class="form-group">
@@ -151,6 +158,7 @@
                 </div>
                </form>
              </div>
+             <!--footer-->
            <div class="modal-footer">
              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
              <button type="button" class="btn btn-primary">Sign up</button>
